@@ -1,0 +1,46 @@
+[
+  {
+    "name": "blog_home",
+    "path": "/blog_home",
+    "component": "C:\\\\Users\\\\bsc\\\\workspace\\\\blog\\\\pages\\\\blog_home.vue",
+    "chunkName": "pages/blog_home",
+    "_name": "_af462720"
+  },
+  {
+    "name": "projects",
+    "path": "/projects",
+    "component": "C:\\\\Users\\\\bsc\\\\workspace\\\\blog\\\\pages\\\\projects.vue",
+    "chunkName": "pages/projects",
+    "_name": "_3de5abd4"
+  },
+  {
+    "name": "products-simpleLedger",
+    "path": "/products/simpleLedger",
+    "component": "C:\\\\Users\\\\bsc\\\\workspace\\\\blog\\\\pages\\\\products\\\\simpleLedger.vue",
+    "chunkName": "pages/products/simpleLedger",
+    "_name": "_75db888a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\bsc\\\\workspace\\\\blog\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b613d634"
+  },
+  {
+    "name": "blog",
+    "path": "/:blog",
+    "component": "C:\\\\Users\\\\bsc\\\\workspace\\\\blog\\\\pages\\\\_blog.vue",
+    "chunkName": "pages/_blog",
+    "children": [
+      {
+        "name": "blog-slug",
+        "path": ":slug?",
+        "component": "C:\\\\Users\\\\bsc\\\\workspace\\\\blog\\\\pages\\\\blog\\\\_slug.vue",
+        "chunkName": "pages/blog/_slug",
+        "_name": "_2f96bb88"
+      }
+    ],
+    "_name": "_99e335d6"
+  }
+]
