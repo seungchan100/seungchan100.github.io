@@ -71,7 +71,7 @@ export default{
       },
       projects:[
         {
-          title:"scsoft android app (2019.06~)",
+          title:"scsoft android app (2019.06~2021.12)",
           desc:"https://play.google.com/store/apps/developer?id=scsoft. Developed and published 4 apps of scsoft : Stock Miner, Tag Note, Simple Ledger, Country Flag Quiz."
           + " Each apps were made by ionic framework. Some apps are Vue.js based, some apps are Angular.js based.",
           tags:["Ionic","Vue.js","Angular.js", "Javascript"],
@@ -101,7 +101,16 @@ export default{
           thumbnail:['/projects/thumbnail/thumbnail_sysmaster.png'],
         },
         {
-          title:"Low fertility and Aging society web site (2016.02)",
+          title:"Korea University Open API (2015.12~2016.02)",
+          desc:"In Korea University Information and Computing Office, I participated in developing Korea University Open API. "
+          + "Because most members didn't know about spring/mybatis, I taught spring / mybatis / MVC pattern."
+          + " And I made architecture of open API base and developed common code.",
+          tags:["Spring","Mybatis", "Java"],
+          image:['/projects/koreauniv_openapi.png'],
+          thumbnail:['/projects/thumbnail/thumbnail_koreauniv_openapi.png'],
+        },
+        {
+          title:"Low fertility and Aging society web site (2015.01~2015.06)",
           desc:"This website is based on korea - egov framework (fork from spring framework)."
                 +"I participated in this project as Backend programmer and frontend javascript programmer."
                 +"developed Member function(register, withdrawl, modification)," 
@@ -111,15 +120,6 @@ export default{
           tags:["Spring","Mybatis", "Java", "Javascript"],
           image:['/projects/precap.png'],
           thumbnail:['/projects/thumbnail/thumbnail_precap.png'],
-        },
-        {
-          title:"Korea University Open API (2015.12~2016.02)",
-          desc:"In Korea University Information and Computing Office, I participated in developing Korea University Open API. "
-          + "Because most members didn't know about spring/mybatis, I taught spring / mybatis / MVC pattern."
-          + " And I made architecture of open API base and developed common code.",
-          tags:["Spring","Mybatis", "Java"],
-          image:['/projects/koreauniv_openapi.png'],
-          thumbnail:['/projects/thumbnail/thumbnail_koreauniv_openapi.png'],
         },
         {
           title:"Qplace (2013.06~2014.08)",

@@ -140,7 +140,10 @@ export default {
             ,'Developed and Designed new features of EES Client program and Web server by C#(.NET, WCF, WPF).'
             ,'Implement Non-Failover by using distributed system algorithms.'
             ,'Improvement chart rendering performance (90% improvement on 1 million data)'
+            ,'Samsung Software Certification - Professional grade(2018.12)'
+            ,'Best Reviewer(code reviewer) certification (2021.10)'
           ]
+
         },
         {
           company:'TmaxSoft/TmaxCloud',
