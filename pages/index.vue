@@ -22,8 +22,8 @@
         </v-col>
       </v-row>
       <v-divider></v-divider>
-      <v-row class="pt-5 pb-5">
-        <v-col cols=2 class="text-h7 font-italic font-weight-bold">
+      <!-- <v-row class="pt-5 pb-5">
+        <v-col cols=2 class="text-h7 font-italic font-weight-bold" style="word-break:break-word;">
           Skills
         </v-col>
         <v-col cols=3>
@@ -43,10 +43,51 @@
           In order to fix bugs and improve systems, can analyze by using some debug / profiling software like dbx, gdb, wireshark, etc.
           Also, I have knowledge of operating systems, network, security.
         </v-col>
+      </v-row> -->
+
+      <v-row class="pt-5 pb-5">
+        <v-col cols=2 class="text-h7 font-italic font-weight-bold" style="word-break:break-word;">
+          Skills
+        </v-col>
+        <v-col cols=10>
+          <v-row>
+            <v-col>
+              <v-row class="font-weight-bold text-h7">
+                Programming
+              </v-row>
+              <v-row class="pt-1 text-body-2" style="width:100%">
+                I can make Application program in Unix, Windows, Web, and Mobile environment. Having various knowledge and experiences of OS/Web. Also having basic skill about mobile programming.
+              </v-row>
+            </v-col>
+          </v-row>
+
+          <v-row>
+            <v-col>
+              <v-row class="font-weight-bold text-h7" style="margin-top:5px">
+                Software Design
+              </v-row>
+              <v-row class="pt-1 text-body-2" style="width:100%">
+                I have ability to design software considering various develop environment by using data structures, algorithms and illustrate by using diagrams (Sequence Diagram, ER Diagram, etc.) Having UX-friendly design ability and communication skills for clients.
+              </v-row>
+            </v-col>
+          </v-row>
+
+          <v-row>
+            <v-col>
+              <v-row class="font-weight-bold text-h7" style="margin-top:5px">
+                Analyze Legacy System
+              </v-row>
+              <v-row class="pt-1 text-body-2" style="width:100%">
+                I have been participated in maintenance of legacy softwares. In order to fix bugs and improve systems, can analyze by using some debug / profiling software like dbx, gdb, wireshark, etc. Also, I have knowledge of operating systems, network, security.
+              </v-row>
+            </v-col>
+          </v-row>
+        </v-col>
       </v-row>
+
       <v-divider></v-divider>
       <v-row class="pt-5 pb-5">
-        <v-col cols=2 class="text-h7 font-italic font-weight-bold">
+        <v-col cols=2 class="text-h7 font-italic font-weight-bold" style="word-break:break-word;">
           Technicals
         </v-col>
         <v-col cols=10>
@@ -63,7 +104,7 @@
       </v-row>
       <v-divider></v-divider>
       <v-row class="pt-5 pb-5">
-        <v-col cols=2 class="text-h7 font-italic font-weight-bold">
+        <v-col cols=2 class="text-h7 font-italic font-weight-bold" style="word-break:break-word;">
           Experience
         </v-col>
         <v-col cols=10>
@@ -77,8 +118,8 @@
               <v-row class="text-caption mt-2">
                 {{item.title}}
               </v-row>
-              <v-row class="pt-1 text-body-2">
-                <span v-for="(item2, index2) in item.description" :key="index2">
+              <v-row class="pt-1 text-body-2" >
+                <span v-for="(item2, index2) in item.description" :key="index2" style="width:100%">
                 - {{item2}}
                 </span>
               </v-row>
@@ -88,7 +129,7 @@
       </v-row>
       <v-divider></v-divider>
       <v-row class="pt-5 pb-5">
-        <v-col cols=2 class="text-h7 font-italic font-weight-bold">
+        <v-col cols=2 class="text-h7 font-italic font-weight-bold" style="word-break:break-word;">
           Education
         </v-col>
         <v-col cols=10>
