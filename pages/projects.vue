@@ -74,7 +74,7 @@ export default{
           title:"memo (toy project)",
           desc:"https://bsc-toy.herokuapp.com/#/memo. This web application is based by vue.js. You can note everything and notes are categorized. "
               +"It support create / delete / list notes. In addition, periodically(yearly / montly / weekly / daily) notes are available."
-              +"When you insert periodically memo and check the memo, it will appeare next period.",
+              +"When you insert periodically memo and check the memo, it will appear at next period.",
           tags:["Vue.js","PHP", "TypeScript"],
           image:['/projects/memo.png'],
           thumbnail:['/projects/thumbnail/thumbnail_memo.png'],
