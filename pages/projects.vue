@@ -65,16 +65,25 @@ export default{
       overlay:false,
       overlayImage:'',
       technicals:{
-        "Language" : ["C", "C#", "Java", "PHP", "Python", "Javascript", "SQL"],
+        "Language" : ["C", "C#", "Java", "PHP", "Python", "JavaScript", "TypeScript", "SQL"],
         "Framework" : ["Spring", ".NET(C#)", "Node.js", "Ionic", "Vue.js"],
         "Etc" : ["React-native", "Android", "Jenkins", "Tmax"],
       },
       projects:[
         {
+          title:"memo (toy project)",
+          desc:"https://bsc-toy.herokuapp.com/#/memo. This web application is based by vue.js. You can note everything and notes are categorized. "
+              +"It support create / delete / list notes. In addition, periodically(yearly / montly / weekly / daily) notes are available."
+              +"When you insert periodically memo and check the memo, it will appeare next period.",
+          tags:["Vue.js","PHP", "TypeScript"],
+          image:['/projects/memo.png'],
+          thumbnail:['/projects/thumbnail/thumbnail_memo.png'],
+        },
+        {
           title:"scsoft android app (2019.06~2021.12)",
           desc:"https://play.google.com/store/apps/developer?id=scsoft. Developed and published 4 apps of scsoft : Stock Miner, Tag Note, Simple Ledger, Country Flag Quiz."
           + " Each apps were made by ionic framework. Some apps are Vue.js based, some apps are Angular.js based.",
-          tags:["Ionic","Vue.js","Angular.js", "Javascript"],
+          tags:["Ionic","Vue.js","Angular.js", "JavaScript"],
           image:['/projects/scsoft_android.png'],
           thumbnail:['/projects/thumbnail/thumbnail_scsoft_android.png'],
         },
