@@ -7,7 +7,7 @@
         </v-col>
         <v-col cols="4">
             <br/>
-            seungchan.100@gmail.com
+            seungchan.100 [at] gmail.com
         </v-col>
       </v-row>
       <v-divider></v-divider>
@@ -163,9 +163,10 @@
 </template>
 
 <style>
-.border-bottom:{
+.border-bottom{
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
+
 </style>
 
 <script>
